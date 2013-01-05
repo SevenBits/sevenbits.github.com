@@ -49,6 +49,16 @@ body {
 	font-size:14px;
 }
 
+footer {
+	position:absolute;
+   	bottom:15;
+   	width:100%;
+   	height:60px;
+	
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:9px;
+}
+
 .mainPageProduct {
 	float:right;
 	padding:0px;
@@ -57,7 +67,7 @@ body {
 .mainPageProduct ul {
     margin: 0;
     padding: 0;
-    width: 600px;
+    width: 450px;
     list-style: none;
 }
 
@@ -70,7 +80,7 @@ body {
 .mainPageProduct img {
     display: block;
     margin: auto;
-    width: 128px;
+    width: 150px;
     height: auto;
     -moz-transition: all 1s ease;
     -webkit-transition: all 1s ease;
