@@ -1,3 +1,50 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* main document css */
+body {
+	background-color:#CCC;
+}
+
+#content {
+	margin-left:120px;
+	margin-right:120px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#FFF;
+	
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+#content a {
+	text-decoration:none;
+}
+
+#content p {
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:5px;
+	
+	height:100%;
+}
+
+#content h1 {
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:5px;
+	
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:16px;
+}
+
+#content h2 {
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:5px;
+	
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:14px;
+}
