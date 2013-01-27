@@ -46,7 +46,16 @@ body {
 	margin-bottom:5px;
 	
 	font-family:"Lucida Console", Monaco, monospace;
-	font-size:14px;
+	font-size:15px;
+}
+
+#content h3 {
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:5px;
+	
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:13px;
 }
 
 footer {
