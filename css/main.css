@@ -31,6 +31,14 @@ body {
 	height:100%;
 }
 
+#content small {
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:5px;
+	
+	height:100%;
+}
+
 #content h1 {
 	margin-left:15px;
 	margin-right:15px;
