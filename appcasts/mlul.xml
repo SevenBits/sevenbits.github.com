@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>Mac Linux USB Loader Changelog</title>
+      <link>http://sevenbits.github.com/appcasts/mlul.xml</link>
+      <description>Most recent changes to Mac Linux USB Loader.</description>
+      <language>en</language>
+        <!-- Now here's an example of a version with a weird internal version number (like an SVN revision) but a human-readable external one. -->
+        <item>
+           <title>Consumer Preview 1.1</title>
+						<sparkle:releaseNotesLink>
+							http://sevenbits.github.com/Mac-Linux-USB-Loader/
+						</sparkle:releaseNotesLink>
+           <pubDate>Tuesday, 26 Feb 2013 19:12:00 +0000</pubDate>
+           <enclosure url="http://sevenbits.github.com/appcasts/mlul-CP1.1.zip" sparkle:version="5019" sparkle:shortVersionString="Consumer Preview 1.1" sparkle:dsaSignature="MC0CFBfeCa1JyW30nbkBwainOzrN6EQuAh=" length="1472349" type="application/octet-stream" />
+        </item>
+   </channel>
+</rss>
