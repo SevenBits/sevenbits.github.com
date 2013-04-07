@@ -30,5 +30,13 @@
            <pubDate>Tuesday, 22 Mar 2013</pubDate>
            <enclosure url="http://sevenbits.github.com/appcasts/mlul-CP1.3.zip" sparkle:version="5021" sparkle:shortVersionString="Consumer Preview 1.3" sparkle:dsaSignature="MC0CFE6/Lg2iJy+ToB/jlGmAEQ3yLZFrAhUAkxoX+feMRP7CdI4sY+zBCeG3jXM=" length="2325983" type="application/octet-stream" />
        </item>
+       <item>
+           <title>1.0 Release Preview</title>
+           <sparkle:releaseNotesLink>
+               http://sevenbits.github.com/Mac-Linux-USB-Loader/
+           </sparkle:releaseNotesLink>
+           <pubDate>Tuesday, 07 Apr 2013</pubDate>
+           <enclosure url="http://sevenbits.github.com/appcasts/mlul-1.0RP.zip" sparkle:version="5024" sparkle:shortVersionString="1.0 Release Preview" sparkle:dsaSignature="MC4CFQDeQragxBEeJaDmzBkVTXqdlhW5iAIVAN1ImR33B75SKhSc1+S2k3d1E3b7" length="2325983" type="application/octet-stream" />
+       </item>
    </channel>
 </rss>
