@@ -44,7 +44,7 @@
                http://sevenbits.github.com/appcasts/rel-notes.html
            </sparkle:releaseNotesLink>
            <pubDate>Friday, 31 May 2013</pubDate>
-           <enclosure url="http://sevenbits.github.com/appcasts/mlul-1.0FINAL.zip" sparkle:version="5085" sparkle:shortVersionString="1.0 Release Preview" type="application/octet-stream" />
+           <enclosure url="http://sevenbits.github.com/appcasts/mlul-1.0FINAL.zip" sparkle:version="5085" sparkle:shortVersionString="1.0" type="application/octet-stream" />
        </item>
    </channel>
 </rss>
