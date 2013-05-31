@@ -41,7 +41,7 @@
        <item>
            <title>1.0</title>
            <sparkle:releaseNotesLink>
-               http://sevenbits.github.com/Mac-Linux-USB-Loader/
+               http://sevenbits.github.com/appcasts/rel-notes.html
            </sparkle:releaseNotesLink>
            <pubDate>Friday, 31 May 2013</pubDate>
            <enclosure url="http://sevenbits.github.com/appcasts/mlul-1.0FINAL.zip" sparkle:version="5085" sparkle:shortVersionString="1.0 Release Preview" type="application/octet-stream" />
