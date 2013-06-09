@@ -11,8 +11,10 @@
 function open() {
 	window.open("https://itunes.apple.com/us/app/incinerator/id620082159?ls=1&mt=12#");
 }
+
 window.onload=open;
 </script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -45,17 +47,27 @@ window.onload=open;
 </nav> <!-- end navMenu -->
 
 <p>
-	<a href="../images/incinerator-window.tiff" style="float:right;"><img src="../images/incinerator-window.tiff"></a>
-    <a onClick="window.open('https://itunes.apple.com/us/app/incinerator/id620082159?ls=1&mt=12#','iTunes');">
-    	<object data="../images/App-Store.svg" type="image/svg+xml" onClick="window.open('https://itunes.apple.com/us/app/incinerator/id620082159?ls=1&mt=12#','iTunes');"></object>
-    </a>
 	<h1>Incinerator</h1>
+    <a onClick="window.open('https://itunes.apple.com/us/app/incinerator/id620082159?ls=1&mt=12#','iTunes');">
+    	<object data="../images/App-Store.svg" type="image/svg+xml" onClick="window.open('https://itunes.apple.com/us/app/incinerator/id620082159?ls=1&mt=12#','iTunes');" 
+        style="float:right;"></object>
+    </a>
     <p>
     	Incinerator is an app that securely erases files from your hard drive with extreme prejudice. It is capable of obliterating pretty much any file in its way - and yours. 
     </p>
     <p>
     	<a href="https://itunes.apple.com/us/app/incinerator/id620082159?ls=1&mt=12#" target="_blank">Download Now on the App Store!</a>
     </p>
+    <p>
+    	<h2>Why Incinerator?</h2>
+        <p>When you normally erase a file on your Mac, more often than not, the file can <strong>still be retrieved</strong>. Using professional software, even amateur computer users can find potentially dangerous information on your hard drive, such as sensitive documnts, bills, etc. This is because when you erase a file, the file does not "disappear": the operating system simply marks the data as no longer being used, but the data still remains and is accessible until another file is created that writes over the data that previously was there. This means that special software can hunt for these unused data sections and restore them into files. The following video<sup>*</sup> demonstrates exactly how easy this is:</p>
+    </p>
+	<div class="video-container">
+    	<iframe width="853" height="480" src="https://www.youtube.com/embed/1Ju8iRE2Ehg" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <p>Because of this threat, it is vital that you write over sensitive files before erasing them, so that anybody who tries to access your hard drive and recover the files will find random data, and not anything potentially sensitive. Incinerator can do this job, and it is available on the Mac App Store totally, 100% free.</p>
+    <br/>
+    <a href="../images/incinerator-window.tiff" style="float:right;"><img src="../images/incinerator-window.tiff"></a>
     <p>
     	<h3>Features:</h3>
         <ul>
@@ -70,10 +82,13 @@ window.onload=open;
             <li>Compatible with <strong>all New Macs</strong></li> - Yes, that new MacBook Air you bought can run Incinerator. :)
         </ul>
     </p>
-    <p>Need help? Don't hesitate to contact me. I can be reached through <a href="https://github.com/SevenBits" target="_blank">GitHub</a>, or you can <a href="mailto:">email me</a>.</p>
+    <p>Need help? Don't hesitate to contact me. I can be reached through <a href="https://github.com/SevenBits" target="_blank">GitHub</a>, or you can <a href="mailto:">email me</a>.
+    </p>
 </p>
 <footer>
-&copy; 2013 SevenBits. All rights reserved. The text on this page is released under the Creative Commons Attribution-NoDerivs CC BY-ND license. That license can be found <a href="http://creativecommons.org/licenses/by-nd/3.0/" target="_blank" rel="nofollow">here. 
+&copy; 2013 SevenBits. All rights reserved. The text on this page is released under the Creative Commons Attribution-NoDerivs CC BY-ND license. That license can be found <a href="http://creativecommons.org/licenses/by-nd/3.0/" target="_blank" rel="nofollow">here</a>. <br/> <br/>
+
+<strong><sup>*</sup></strong> - This video and its mentioned commercial software is included as a demonstration to demonstrate the necessity of the product advertised on this page. Its use does not constitute an endorsement of the product contained therein, and I cannot be held resposnsible for any damages that it may incur.
 </footer>
 </div> <!-- end content div -->
 </body>
