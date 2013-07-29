@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>SevenBits</title>
-<link href="../css/main.css" rel="stylesheet" type="text/css">
-<link href="../css/navbar.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/navbar.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 </head>
@@ -13,24 +13,24 @@
 <div id="content">
 <nav id="navMenu">
 	<ul>
-    	<li> <a href="../index.html">Home</a>
+    	<li> <a href="index.html">Home</a>
     	</li> <!-- end main li -->
     	<li> <a href="#">Projects</a>
     		<ul>
-    		<li><a href="mlul.html">Mac Linux USB Loader</a></li>
-    		<li><a href="incinerator.html">Incinerator</a></li>
-    		<li><a href="other.html"><small>More Projects</small></a></li>
+    		<li><a href="projects/mlul.html">Mac Linux USB Loader</a></li>
+    		<li><a href="projects/incinerator.html">Incinerator</a></li>
+    		<li><a href="projects/other.html"><small>More Projects</small></a></li>
 			</ul> <!-- end inner ul -->
     	</li> <!-- end main li -->
         
         <li> <a href="#">About</a>
     		<ul>
-    		<li><a href="../about/exp.html">Experience</a></li>
-    		<li><a href="../about/software.html">Software</a></li>
+    		<li><a href="about/exp.html">Experience</a></li>
+    		<li><a href="about/software.html">Software</a></li>
 			</ul> <!-- end inner ul -->
     	</li> <!-- end main li -->
         
-        <li style="float:right;"> <a href="../contact.html">Contact</a>
+        <li style="float:right;"> <a href="contact.html">Contact</a>
     		
     	</li> <!-- end main li -->
     </ul> <!-- end main ul -->
@@ -39,9 +39,12 @@
 </nav> <!-- end navMenu -->
 
 <p>
-	<h1>Other Projects</h1>
+	<h1>Contact</h1>
     <p>
-    	<a href="apple-core.html">Apple Core</a> - An OS X system file viewer.
+    	Email - Feel free to email me at this address: <br/>
+        	<div style="margin-left:5em;" id="email-field">
+            	Please enable Javascript to see an email address here.
+            </div>
     </p>
 </p>
 <footer>
@@ -49,4 +52,9 @@
 </footer>
 </div> <!-- end content div -->
 </body>
+
+<script>
+document.getElementById("email-field").innerHTML = "<a href='mailto:sevenbitstech@gmail.com'>sevenbitstech [AT] gmail [D O T] com";
+</script>
+
 </html>
