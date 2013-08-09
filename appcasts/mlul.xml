@@ -46,5 +46,13 @@
            <pubDate>Friday, 31 May 2013</pubDate>
            <enclosure url="http://sevenbits.github.com/appcasts/mlul-1.0FINAL.zip" sparkle:version="5084" sparkle:shortVersionString="1.0" sparkle:dsaSignature="MC0CFD4KIuEUTJsKrfA2ZqtAx9BqhxUSAhUAgB7PCqEAVqMxbi+AN2FQoNPH+TU=" length="2325983" type="application/octet-stream" />
        </item>
+       <item>
+           <title>1.1</title>
+           <sparkle:releaseNotesLink>
+               http://sevenbits.github.com/appcasts/rel-notes.html
+           </sparkle:releaseNotesLink>
+           <pubDate>Friday, 09 August 2013</pubDate>
+           <enclosure url="http://sevenbits.github.com/appcasts/mlul-1.0FINAL.zip" sparkle:version="5090" sparkle:shortVersionString="1.1" sparkle:dsaSignature="MCwCFGPmVm/1iFXu7lDnjF+wgHpSyNXBAhRww6RuEqa/by2nnIi0iBfMgFykXg==" length="2319922" type="application/octet-stream" />
+       </item>
    </channel>
 </rss>
