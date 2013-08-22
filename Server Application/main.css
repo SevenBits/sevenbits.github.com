@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, span, object, iframe, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+h1 {
+	margin: 0;
+    padding: 0;
+    border: 0;
+	color:#099;
+	position:absolute;
+	left:30px; top:auto;
+}
+
+strong {
+	color:#9F6;
+	font-weight:bold;
+}
+
+body {
+	background:#111;
+	background-image:url(images/bg.png);
+	font-family: 'Happy Monkey', cursive;
+}
+
+header {
+	display:block;
+	background-image:url(images/fg.png);
+	width:auto;
+	height:48px;
+	color:#FFF;
+	margin:0px; padding:0px; border:0px;
+}
+
+p {
+	color:#9F6;
+	position:relative;
+	top:10px; bottom:10px; top:auto; bottom:10px;
+}
+
+#wrapper {
+	width:700px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:0; bottom:0;
+}
+
+.tb {
+	width:100%;
+	max-width:100%;
+}
+
+.block {
+	display:block;
+}
