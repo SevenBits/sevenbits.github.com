@@ -5,31 +5,6 @@
       <link>http://sevenbits.github.com/appcasts/mlul.xml</link>
       <description>Most recent changes to Mac Linux USB Loader.</description>
       <language>en</language>
-        <!-- Now here's an example of a version with a weird internal version number (like an SVN revision) but a human-readable external one. -->
-        <item>
-           <title>Consumer Preview 1.1</title>
-						<sparkle:releaseNotesLink>
-							http://sevenbits.github.com/Mac-Linux-USB-Loader/
-						</sparkle:releaseNotesLink>
-           <pubDate>Tuesday, 26 Feb 2013 19:12:00 +0000</pubDate>
-           <enclosure url="http://sevenbits.github.com/appcasts/mlul-CP1.1.zip" sparkle:version="5019" sparkle:shortVersionString="Consumer Preview 1.1" sparkle:dsaSignature="MC4CFQDeK3n54tjwPWQaxax/vGlCnK9zzAIVALWRKIitLUBpF2EX+LfTiGG3aAgq" length="2228388" type="application/octet-stream" />
-        </item>
-       <item>
-           <title>Consumer Preview 1.2</title>
-           <sparkle:releaseNotesLink>
-               http://sevenbits.github.com/Mac-Linux-USB-Loader/
-           </sparkle:releaseNotesLink>
-           <pubDate>Tuesday, 07 Mar 2013</pubDate>
-           <enclosure url="http://sevenbits.github.com/appcasts/mlul-CP1.2.zip" sparkle:version="5019" sparkle:shortVersionString="Consumer Preview 1.2" sparkle:dsaSignature="MC0CFQDi7ga2p0DbqfdERM7HM/PMf/cKuQIUfPEMa7uba+ryDJsJSAUoxLgpuKk=" length="2231343" type="application/octet-stream" />
-       </item>
-       <item>
-           <title>Consumer Preview 1.3</title>
-           <sparkle:releaseNotesLink>
-               http://sevenbits.github.com/Mac-Linux-USB-Loader/
-           </sparkle:releaseNotesLink>
-           <pubDate>Tuesday, 22 Mar 2013</pubDate>
-           <enclosure url="http://sevenbits.github.com/appcasts/mlul-CP1.3.zip" sparkle:version="5021" sparkle:shortVersionString="Consumer Preview 1.3" sparkle:dsaSignature="MC0CFE6/Lg2iJy+ToB/jlGmAEQ3yLZFrAhUAkxoX+feMRP7CdI4sY+zBCeG3jXM=" length="2325983" type="application/octet-stream" />
-       </item>
        <item>
            <title>1.0 Release Preview</title>
            <sparkle:releaseNotesLink>
