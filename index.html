@@ -1,68 +1,108 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>SevenBits</title>
-<link href="css/main.css" rel="stylesheet" type="text/css">
-<link href="css/navbar.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-</head>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>SevenBits' Tech Site - Home Page</title>
+        <meta name="description" content="SevenBits' official site on the web, with information on software, hardware, and more!">
+        <meta name="viewport" content="width=device-width">
+        <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png">
+    	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-144x144-precomposed.png">
+    	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+    	<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+        <link rel="icon" type="image/ico" href="favicon.ico">
 
-<body>
-<div id="content">
-<nav id="navMenu">
-	<ul>
-    	<li> <a href="index.html">Home</a>
-    	</li> <!-- end main li -->
-    	<li> <a href="#">Projects</a>
-    		<ul>
-    		<li><a href="projects/mlul.html">Mac Linux USB Loader</a></li>
-    		<li><a href="projects/incinerator.html">Incinerator</a></li>
-    		<li><a href="projects/other.html"><small>More Projects</small></a></li>
-			</ul> <!-- end inner ul -->
-    	</li> <!-- end main li -->
-        
-        <li> <a href="#">About</a>
-    		<ul>
-    		<li><a href="about/exp.html">Experience</a></li>
-    		<li><a href="about/software.html">Software</a></li>
-			</ul> <!-- end inner ul -->
-    	</li> <!-- end main li -->
-        
-        <li style="float:right;"> <a href="contact.html">Contact</a>
-    		
-    	</li> <!-- end main li -->
-    </ul> <!-- end main ul -->
-    
-    <br class="clearFloat" />
-</nav> <!-- end navMenu -->
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-<p>
-	<div class="mainPageProduct" width="64" height="64" src="images/MLUL-Icon.png"/>
-    	<ul>
-    		<li><a href="projects/mlul.html"><img src="images/MLUL-Icon.png" width="512" height="512"></a></li>
-    		<li><a href="projects/apple-core.html"><img src="images/Apple-Core.png" width="512" height="512"></a></li>
-    		<li><a href="projects/incinerator.html"><img src="images/ic.png" width="512" height="512"></a></li>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/site.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <!-- Floating nav menu -->
+		<ul class="nav">
+    		<li id="settings">
+        		<a href="index.html"><img src="img/logo.jpg" width="24" height="24"/></a>
+    		</li>
+    		<li>
+        		<a href="about.html">About</a>
+    		</li>
+    		<li>
+        		<a href="http://sevenbits-tech-blog.blogspot.com" target="_blank">Blog</a>
+    		</li>
+    		<li id="options">
+        		<a href="#">Projects</a>
+        		<ul class="subnav">
+            		<li><a href="projects/mlul.html">Mac Linux USB Loader</a></li>
+            		<li><a href="projects/incinerator.html">Incinerator</a></li>
+            		<li><a href="projects/apple-core.html">Apple Core</a></li>
+            		<li><a href="#">Enterprise</a></li>
+        		</ul>
+    		</li>
+            <li id="contact">
+        		<a href="contact.html">Contact</a>
+    		</li>
 		</ul>
-    </div>
-	<h1>Welcome to SevenBits's GitHub Page!</h1>
-    <p>
-    	This is SevenBits's home page, a place where I will discuss all of my projects that I have posted on <a href="http://www.github.com/SevenBits" target="_blank">GitHub</a>. GitHub is a code collaboration website where users can commit, pull, push, fork, and fetch others' git repositories, which they host for free.
-    </p>
-    <p>
-    	I write a large variety of open-source software, which is available on my products page here. Paid software can be found there as well. I always accept contributions from others to my open source software pieces, and I encourage you to contribute.
-    </p>
-    <p>
-    	I have <a href="http://sevenbits-tech-blog.blogspot.com" target="_blank">a blog</a> where I post occassional rants and raves, as well as a website dedicated to my first person shooter game, <a href="http://www.theinvasiongames.com" target="_blank">Invasion</a>.
-    </p>
-    <p>
-    	<!-- YouTube video here -->
-    </p>
-</p>
-<footer>
-&copy; 2013 SevenBits. All rights reserved. The text on this page is released under the Creative Commons Attribution-NoDerivs CC BY-ND license. That license can be found <a href="http://creativecommons.org/licenses/by-nd/3.0/" target="_blank" rel="nofollow">here. 
-</footer>
-</div> <!-- end content div -->
-</body>
+
+        <!-- Add your site or application content here -->
+        <div class="main-page-content">
+            <div style="background-color: rgba(170, 70, 48, 0.75);" id="advert">
+                <p style="float:left;">
+                	<img src="img/mlul.png" width="256" height="256" style="float:right;right:25px;display:inline-block;"/>
+                	<h1>Mac Linux USB Loader</h1>
+                    <h3>A new breed of awesome. Squared. And multiplied by four.</h3>
+                    <p>
+                    	Mac Linux USB Loader, my flagship tool for creating live Linux USB sticks, is now at version 1.1. Create live USB sticks of your favorite Linux distributions as easily as ever!
+                    </p>
+                    <p>
+                    	For more information, please see my blog post on the subject. And reading the release notes is usually helpful, too.
+                    </p>
+                    <button onClick="window.open('http://sevenbits.github.com/downloads/Mac-Linux-USB-Loader.zip')">Download</button>
+                    <div style="float:right;" onClick="$('#advert').hide();"><small>Close</small></div>
+                </p>
+            </div>
+            <div style="background-color:rgba(170, 70, 48, 0.25);height:100%;top:0px;" id="topic-div">
+            	<p>
+    				This is SevenBits's home page, a place where I will discuss all of my projects that I have posted on <a href="http://www.github.com/SevenBits" target="_blank">GitHub</a>. GitHub is a code collaboration website where users can commit, pull, push, fork, and fetch others' git repositories, which they host for free.
+    			</p>
+    			<p>
+    				I write a large variety of open-source software, which is available on my products page here. Paid software can be found there as well. I always accept contributions from others to my open source software pieces, and I encourage you to contribute.
+    			</p>
+    			<p>
+    				I have <a href="http://sevenbits-tech-blog.blogspot.com" target="_blank">a blog</a> where I post occassional rants and raves, as well as a website dedicated to my first person shooter game, <a href="http://www.theinvasiongames.com" target="_blank">Invasion</a>.
+    			</p>
+    			<!--<p>
+                	<h4>The Latest YouTube Video:</h4>
+                    <div class="video-container">
+    					<iframe width="512" height="512" src="https://www.youtube.com/embed/1Ju8iRE2Ehg" frameborder="0" allowfullscreen></iframe>
+   					</div>
+    			</p>-->
+            </div>
+        </div>
+        
+        <footer>
+        	&copy;2012-2013 SevenBits. All rights reserved.
+        </footer>
+		
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
 </html>

@@ -1,95 +1,127 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>SevenBits</title>
-<link href="../css/main.css" rel="stylesheet" type="text/css">
-<link href="../css/navbar.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<script>
-function open() {
-	window.open("https://itunes.apple.com/us/app/incinerator/id620082159?ls=1&mt=12#");
-}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>SevenBits' Tech Site - Incinerator Product Info</title>
+        <meta name="description" content="Incinerator is an app that securely erases files from your hard drive with extreme prejudice. It is capable of obliterating pretty much any file in its way - and yours. Download it free today!">
+        <meta name="viewport" content="width=device-width">
+        <link rel="apple-touch-icon" sizes="57x57" href="../apple-touch-icon-57x57-precomposed.png">
+    	<link rel="apple-touch-icon" sizes="114x114" href="../apple-touch-icon-144x144-precomposed.png">
+    	<link rel="apple-touch-icon" sizes="72x72" href="../apple-touch-icon-72x72-precomposed.png">
+    	<link rel="apple-touch-icon" sizes="144x144" href="../apple-touch-icon-144x144-precomposed.png">
+        <link rel="icon" type="image/ico" href="../favicon.ico">
 
-window.onload=open;
-</script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-</head>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-<body>
-<div id="content">
-<nav id="navMenu">
-	<ul>
-    	<li> <a href="../index.html">Home</a>
-    	</li> <!-- end main li -->
-    	<li> <a href="#">Projects</a>
-    		<ul>
-    		<li><a href="mlul.html">Mac Linux USB Loader</a></li>
-    		<li><a href="incinerator.html">Incinerator</a></li>
-    		<li><a href="other.html"><small>More Projects</small></a></li>
-			</ul> <!-- end inner ul -->
-    	</li> <!-- end main li -->
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/site.css">
+        <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
         
-        <li> <a href="#">About</a>
-    		<ul>
-    		<li><a href="../about/exp.html">Experience</a></li>
-    		<li><a href="../about/software.html">Software</a></li>
-			</ul> <!-- end inner ul -->
-    	</li> <!-- end main li -->
+        <!-- Floating nav menu -->
+		<ul class="nav">
+    		<li id="settings">
+        		<a href="../index.html"><img src="../img/logo.jpg" width="24" height="24"/></a>
+    		</li>
+    		<li>
+        		<a href="../about.html">About</a>
+    		</li>
+    		<li>
+        		<a href="http://sevenbits-tech-blog.blogspot.com" target="_blank">Blog</a>
+    		</li>
+    		<li id="options">
+        		<a href="#">Projects</a>
+        		<ul class="subnav">
+            		<li><a href="mlul.html">Mac Linux USB Loader</a></li>
+            		<li><a href="incinerator.html">Incinerator</a></li>
+            		<li><a href="apple-core.html">Apple Core</a></li>
+            		<li><a href="#">Enterprise</a></li>
+        		</ul>
+    		</li>
+            <li id="contact">
+        		<a href="../contact.html">Contact</a>
+    		</li>
+		</ul>
+
+        <!-- Add your site or application content here -->
+        <div class="main-page-content">
+            <div style="background-color: rgba(170, 70, 48, 0.75);" id="advert">
+                <p style="float:left;">
+                	<img src="../img/ic.png" width="256" height="256" style="float:right;right:25px;display:inline-block;"/>
+                	<h1>Incinerator</h1>
+                    <h3>Your own personal black hole is here.</h3>
+                    <p>
+                    	Incinerator 1.2 is coming soon, packed with the features that you've all been waiting for, like the ability to incinerate folders, applications, and even the Trash. Plus, it's full of bug fixes and improvements to make your experience even more pleasant.
+                    </p>
+                    <a href="macappstore://itunes.apple.com/us/app/incinerator/id620082159">
+                    	<img src="../img/App-Store.svg" alt="Download on the Mac App Store!"/>
+                    </a>
+					<small>or <a href="https://itunes.apple.com/us/app/incinerator/id620082159" target="_blank">View on iTunes</a>.</small>
+                </p>
+            </div>
+            <div style="background-color:rgba(170, 70, 48, 0.25);height:100%;top:0px;" id="topic-div">
+            	<p>
+    				Incinerator is an app that securely erases files from your hard drive with extreme prejudice. It is capable of obliterating pretty much any file in its way - and yours. 
+    			</p>
+    			<p>
+                	<h4>Why Incinerator?</h4>
+    				<p>When you normally erase a file on your Mac, more often than not, the file can <strong>still be retrieved</strong>. Using professional software, even amateur computer users can find potentially dangerous information on your hard drive, such as sensitive documnts, bills, etc. This is because when you erase a file, the file does not "disappear": the operating system simply marks the data as no longer being used, but the data still remains and is accessible until another file is created that writes over the data that previously was there. This means that special software can hunt for these unused data sections and restore them into files. The following video<sup>*</sup> demonstrates exactly how easy this is:</p>
+    			</p>
+    			<p>
+                    <div class="video-container">
+    					<iframe width="512" height="512" src="https://www.youtube.com/embed/1Ju8iRE2Ehg" frameborder="0" allowfullscreen></iframe>
+   					</div>
+    			</p>
+                <p>
+                	Because of this threat, it is vital that you write over sensitive files before erasing them, so that anybody who tries to access your hard drive and recover the files will find random data, and not anything potentially sensitive. Incinerator can do this job, and it is available on the Mac App Store totally, 100% free.
+                </p>
+                <p>
+                	<h3>Features:</h3>
+        			<ul>
+                	<li>Scaleable Destruction</li> - Have the program write over your file one time, or a thousand.
+            		<li>Notifications</li> - Incinerator fully integrates into your OS X desktop, even sending you notifications when your file has been incinerated.
+            		<li>Super Secure</li>
+                    <ul>
+                        <li>On the App Store</li> - Incinerator is available on the Mac App Store, so you have full confidence in knowing that it has been approved by the makers of OS X itself - the ultimate seal of Mac compatibility.
+                    	<li>Sandboxed</li> - A new technology, sandboxing allows each app on your Mac to play nicely together, preventing them from doing rogue things like erasing all of your files. Incinerator only has access to the files you open, giving you a sigh of relief.
+                    	<li>Signed</li> - The official version of Incinerator is signed by my developer ID issued by Apple. This means it runs without warning on your Mac, with the understanding that if something goes wrong, Apple can pull the certificate, preventing the app from running.
+                	</ul>
+            		<li>Compatible with <strong>all New Macs</strong></li> - Yes, that new MacBook Air you bought can run Incinerator. :)
+        			</ul>
+                </p>
+                <p>
+                	Need help? Don't hesitate to contact me. I can be reached through <a href="https://github.com/SevenBits" target="_blank">GitHub</a>, or you can <a href="../contact.html">email me</a>.
+                </p>
+                <p>
+                	<small><strong>*</strong> - This video and its mentioned commercial software is included as a demonstration to demonstrate the necessity of the product advertised on this page. Its use does not constitute an endorsement of the product contained therein, and I cannot be held resposnsible for any damages that it may incur.</small>
+                </p>
+            </div>
+        </div>
         
-        <li style="float:right;"> <a href="../contact.html">Contact</a>
-    		
-    	</li> <!-- end main li -->
-    </ul> <!-- end main ul -->
-    
-    <br class="clearFloat" />
-</nav> <!-- end navMenu -->
+        <footer>
+        	&copy;2012-2013 SevenBits. All rights reserved.
+        </footer>
+		
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
 
-<p>
-	<h1>Incinerator</h1>
-    <a onClick="window.open('https://itunes.apple.com/us/app/incinerator/id620082159?ls=1&mt=12#','iTunes');">
-    	<object data="../images/App-Store.svg" type="image/svg+xml" onClick="window.open('https://itunes.apple.com/us/app/incinerator/id620082159?ls=1&mt=12#','iTunes');" 
-        style="float:right;"></object>
-    </a>
-    <p>
-    	Incinerator is an app that securely erases files from your hard drive with extreme prejudice. It is capable of obliterating pretty much any file in its way - and yours. 
-    </p>
-    <p>
-    	<a href="https://itunes.apple.com/us/app/incinerator/id620082159?ls=1&mt=12#" target="_blank">Download Now on the App Store!</a>
-    </p>
-    <p>
-    	<h2>Why Incinerator?</h2>
-        <p>When you normally erase a file on your Mac, more often than not, the file can <strong>still be retrieved</strong>. Using professional software, even amateur computer users can find potentially dangerous information on your hard drive, such as sensitive documnts, bills, etc. This is because when you erase a file, the file does not "disappear": the operating system simply marks the data as no longer being used, but the data still remains and is accessible until another file is created that writes over the data that previously was there. This means that special software can hunt for these unused data sections and restore them into files. The following video<sup>*</sup> demonstrates exactly how easy this is:</p>
-    </p>
-	<div class="video-container">
-    	<iframe width="853" height="480" src="https://www.youtube.com/embed/1Ju8iRE2Ehg" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <p>Because of this threat, it is vital that you write over sensitive files before erasing them, so that anybody who tries to access your hard drive and recover the files will find random data, and not anything potentially sensitive. Incinerator can do this job, and it is available on the Mac App Store totally, 100% free.</p>
-    <br/>
-    <a href="../images/incinerator-window.tiff" style="float:right;"><img src="../images/incinerator-window.tiff"></a>
-    <p>
-    	<h3>Features:</h3>
-        <ul>
-        	<li>Scaleable Destruction</li> - Have the program write over your file one time, or a thousand.
-            <li>Notifications</li> - Incinerator fully integrates into your OS X desktop, even sending you notifications when your file has been incinerated.
-            <li>Super Secure</li>
-            	<ul>
-                	<li>On the App Store</li> - Incinerator is available on the Mac App Store, so you have full confidence in knowing that it has been approved by the makers of OS X itself - the ultimate seal of Mac compatibility.
-                    <li>Sandboxed</li> - A new technology, sandboxing allows each app on your Mac to play nicely together, preventing them from doing rogue things like erasing all of your files. Incinerator only has access to the files you open, giving you a sigh of relief.
-                    <li>Signed</li> - The official version of Incinerator is signed by my developer ID issued by Apple. This means it runs without warning on your Mac, with the understanding that if something goes wrong, Apple can pull the certificate, preventing the app from running.
-                </ul>
-            <li>Compatible with <strong>all New Macs</strong></li> - Yes, that new MacBook Air you bought can run Incinerator. :)
-        </ul>
-    </p>
-    <p>Need help? Don't hesitate to contact me. I can be reached through <a href="https://github.com/SevenBits" target="_blank">GitHub</a>, or you can <a href="mailto:sevenbitstech@gmail.com">email me</a>.
-    </p>
-</p>
-<footer>
-&copy; 2013 SevenBits. All rights reserved. The text on this page is released under the Creative Commons Attribution-NoDerivs CC BY-ND license. That license can be found <a href="http://creativecommons.org/licenses/by-nd/3.0/" target="_blank" rel="nofollow">here</a>. <br/> <br/>
-
-<strong><sup>*</sup></strong> - This video and its mentioned commercial software is included as a demonstration to demonstrate the necessity of the product advertised on this page. Its use does not constitute an endorsement of the product contained therein, and I cannot be held resposnsible for any damages that it may incur.
-</footer>
-</div> <!-- end content div -->
-</body>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
 </html>

@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Floating nav menu */
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+	top: 0px;
+	left: 0px;
+	padding: 0;
+	margin: 0;
+    background: #AA4630;
+	opacity: 60%;
+    height: 60px;
+    display: inline-block;
+	width: 100%;
+	position: fixed;
+}
+ 
+.nav li {
+    float: left;
+    list-style-type: none;
+    position: relative;
+}
+
+.nav #contact {
+	float: right;
+}
+
+.nav li a {
+    font-size: 16px;
+    color: white;
+    display: block;
+    line-height: 60px;
+    padding: 0 26px;
+    text-decoration: none;
+    /*border-left: 1px solid #2e2e2e;*/
+    font-family: Montserrat, sans-serif;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.nav li a:hover {
+    background-color: #F37021;
+}
+
+#settings a:hover {
+	background-color: transparent;
+}
+ 
+#settings a {
+    padding: 18px;
+    height: 24px;
+    font-size: 10px;
+    line-height: 24px;
+}
+
+#options a{
+    border-left: none;
+}
+
+#options>a {
+    background-image: url(triangle.png);
+    background-position: 85% center;
+    background-repeat: no-repeat;
+    padding-right: 42px;
+}
+
+.subnav {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    height: auto;
+    opacity: 0;
+    transition: all 0.1s;
+    background: #E98D70;
+}
+
+.subnav li {
+    float: none;
+}
+
+.subnav li a {
+    border-bottom: 1px solid #2e2e2e;
+}
+
+#options:hover .subnav {
+    visibility: visible;
+    top: 100%;
+    opacity: 1;
+}
+
+/* Main site */
+.main-page-content {
+	position: absolute;
+	top: 39px;
+	left: 0px;
+	right: 0px;
+	width: 730px;
+	z-index:-1;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#topic-div {
+	margin: 5px;
+	padding: 5px;
+}
+
+footer {
+   	position: fixed;
+   	bottom: 0;
+   	width: 100%;
+   	height: 20px;   /* Height of the footer */
+   	/*background: #6cf;*/
+}
+
+/* YouTube videos */
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	margin: 35px;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

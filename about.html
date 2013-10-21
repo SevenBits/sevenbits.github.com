@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>SevenBits' Tech Site - Home Page</title>
-        <meta name="description" content="">
+        <meta name="description" content="SevenBits' official site on the web, with information on software, hardware, and more!">
         <meta name="viewport" content="width=device-width">
         <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png">
     	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-144x144-precomposed.png">
@@ -33,7 +33,7 @@
         		<a href="index.html"><img src="img/logo.jpg" width="24" height="24"/></a>
     		</li>
     		<li>
-        		<a href="#">About</a>
+        		<a href="about.html">About</a>
     		</li>
     		<li>
         		<a href="http://sevenbits-tech-blog.blogspot.com" target="_blank">Blog</a>
@@ -41,10 +41,10 @@
     		<li id="options">
         		<a href="#">Projects</a>
         		<ul class="subnav">
-            		<li><a href="#">Mac Linux USB Loader</a></li>
-            		<li><a href="#">Application</a></li>
-            		<li><a href="#">Board</a></li>
-            		<li><a href="#">Options</a></li>
+            		<li><a href="projects/mlul.html">Mac Linux USB Loader</a></li>
+            		<li><a href="projects/incinerator.html">Incinerator</a></li>
+            		<li><a href="projects/apple-core.html">Apple Core</a></li>
+            		<li><a href="#">Enterprise</a></li>
         		</ul>
     		</li>
             <li id="contact">
@@ -56,15 +56,21 @@
         <div class="main-page-content">
             <div style="background-color:rgba(170, 70, 48, 0.25);height:100%;top:0px;" id="topic-div">
             	<p>
-					<h1>Contact</h1>
-    					<p>
-    						Email - Feel free to email me at this address: <br/>
-                			<div style="margin-left:5em;" id="email-field">
-                    			Please enable Javascript to see an email address here.
-                			</div>
-        				</p>
-					</p>
-				</div> <!-- end content div -->
+					<img src="img/logo.jpg" style="float:right;" width="256" height="256">
+    				SevenBits is the online alias of a unique but somewhat quirky programmer from New Hampshire. He has been coding for years and has many projects to his name, some of which as so old that recollection will be a challenge.
+				</p>
+				<p>
+					He writes <a href="projects/incinerator.html">commercial software for the Mac</a>, is the author of a somewhat popular (in niche circles) software program called <a href="projects/mlul.html">Mac Linux USB Loader</a> and its associated firmware-to-be, Enterprise. Fluent in Java, Objective-C, C, and some C++, he has also dabbled in HTML5 and WebGL, which he considers to be very cool (from a technical standpoint, but also great for building web-based first person shooters).
+				</p>
+				<p>
+					If you need anything, feel free to <a href="contact.html">contact me</a>.
+				</p>
+    			<!--<p>
+                	<h4>The Latest YouTube Video:</h4>
+                    <div class="video-container">
+    					<iframe width="512" height="512" src="https://www.youtube.com/embed/1Ju8iRE2Ehg" frameborder="0" allowfullscreen></iframe>
+   					</div>
+    			</p>-->
             </div>
         </div>
         
@@ -76,9 +82,6 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-        <script>
-			document.getElementById("email-field").innerHTML = "<a href='mailto:sevenbitstech@gmail.com'>sevenbitstech [AT] gmail [D O T] com";
-		</script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
