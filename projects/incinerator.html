@@ -21,6 +21,25 @@
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/site.css">
         <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+		<script>
+			var currentId = 0;
+			imgList = new Array();
+  			imgList[0] = "../img/incinerator-window.tiff";
+  			imgList[1] = "../img/incinerator-window2.tiff";
+			
+			function cycleLeft() {
+				if (currentId - 1 >= 0) {
+					currentId--;
+					$("#rotate-img").attr("src",imgList[currentId]);
+				}
+			}
+			function cycleRight() {
+				if (currentId + 1 <= imgList.length) {
+					currentId++;
+					$("#rotate-img").attr("src",imgList[currentId]);
+				}
+			}
+		</script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -87,6 +106,12 @@
                 <p>
                 	Because of this threat, it is vital that you write over sensitive files before erasing them, so that anybody who tries to access your hard drive and recover the files will find random data, and not anything potentially sensitive. Incinerator can do this job, and it is available on the Mac App Store totally, 100% free.
                 </p>
+				<p style="display:block; margin-left:auto; margin-right:auto; width:730px;">
+					<h3>Screenshots:</h3>
+					<a href="javascript:cycleLeft();">&lt;</a>
+					<img src="../img/incinerator-window.tiff" id="rotate-img">
+					<a href="javascript:cycleRight();">&gt;</a>
+				</p>
                 <p>
                 	<h3>Features:</h3>
         			<ul>
