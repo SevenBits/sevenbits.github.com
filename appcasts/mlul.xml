@@ -27,7 +27,7 @@
                http://sevenbits.github.com/appcasts/rel-notes.html
            </sparkle:releaseNotesLink>
            <pubDate>Tuesday, 24 December 2013</pubDate>
-           <enclosure url="http://sevenbits.github.com/appcasts/mlul-2.0FINAL.zip" sparkle:version="7036" sparkle:shortVersionString="2.0" />
+           <enclosure url="http://sevenbits.github.com/appcasts/mlul-2.0FINAL.zip" sparkle:version="7036" sparkle:shortVersionString="2.0" sparkle:dsaSignature="MC0CFQDe8yo3y5bFlx69rEY+0e4ZugdCuAIUIuB7qkeZBIDxAO7X4xR6rsd+Vac=" length="2388229" type="application/octet-stream" />
        </item>
    </channel>
 </rss>
