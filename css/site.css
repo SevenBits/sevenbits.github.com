@@ -97,6 +97,18 @@
 }
 
 /* Main site */
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
+#advert {
+	background-color: rgba(170, 70, 48, 0.75);
+}
+
 .main-page-content {
 	position: absolute;
 	top: 39px;
@@ -109,9 +121,24 @@
 	margin-right: auto;
 }
 
+.description {
+	float:left;
+	display:block;
+}
+
+.on-display {
+	float:right;
+	right:25px;
+	display:inline-block;
+}
+
 #topic-div {
 	margin: 5px;
 	padding: 5px;
+	
+	background-color:rgba(170, 70, 48, 0.25);
+	height:100%;
+	top:0px;
 }
 
 footer {
@@ -140,6 +167,19 @@ footer {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+/* Style modifications for iPads and low-res devices */
+@media (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	/* TODO */
+}
+
+/* iPhones */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+	/* TODO */
 }
 
 /* Buttons of various colors. */
