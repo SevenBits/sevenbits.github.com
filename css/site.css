@@ -24,6 +24,8 @@ body, html{
     display: inline-block;
 	width: 100%;
 	position: fixed;
+    
+    z-index: 1;
 }
  
 .nav li {
@@ -67,14 +69,9 @@ body, html{
     border-left: none;
 }
 
-#options>a {
-    background-image: url(triangle.png);
-    background-position: 85% center;
-    background-repeat: no-repeat;
-    padding-right: 42px;
-}
-
 .subnav {
+    margin: 0em 0;
+    padding: 0 0 0 0px;
     visibility: hidden;
     position: absolute;
     top: 100%;
@@ -120,6 +117,7 @@ body, html{
 	right: 0px;
 	width: 730px;
 	
+    min-height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -141,6 +139,7 @@ body, html{
 	
 	background-color:rgba(170, 70, 48, 0.25);
 	height:100%;
+    min-height: 100%;
 	top:0px;
 }
 
