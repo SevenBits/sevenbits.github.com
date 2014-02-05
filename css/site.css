@@ -310,3 +310,15 @@ only screen and (min-device-pixel-ratio : 1.5) {
 .btn-green:active {
 	background-color: rgb(33, 126, 74);
 }
+#product-display {
+    display: block;
+    background-color: #CCC;
+    min-width: 100%;
+    clear: both;
+}
+
+.product {
+    float: left;
+    width: 33%;
+    background-color: #CEF;
+}
