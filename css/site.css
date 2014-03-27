@@ -65,6 +65,10 @@ body, html{
     line-height: 24px;
 }
 
+.goog-logo-link {
+    display: none;
+}
+
 #options a{
     border-left: none;
 }
@@ -330,4 +334,12 @@ only screen and (min-device-pixel-ratio : 1.5) {
     float: left;
     width: 33%;
     background-color: #CEF;
+}
+
+.nav #translate {
+	float: right;
+}
+
+#google_translate_element {
+    height: 10px;
 }
