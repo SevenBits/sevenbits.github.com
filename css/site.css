@@ -14,12 +14,11 @@ body, html{
     padding: 0;
 }
 
-p, ul {
+p, ul, li {
     font-family: Open Sans;
 }
 
 li {
-    font-family: Open Sans;
     font-weight: bold;
 }
 
