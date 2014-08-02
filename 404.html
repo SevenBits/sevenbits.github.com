@@ -63,6 +63,26 @@
                 margin: 1em 0;
             }
 
+            .video-container {
+                position: relative;
+                padding-bottom: 56.25%;
+                margin: 35px;
+                padding-top: 30px;
+                height: 0;
+                overflow: hidden;
+            }
+
+            .video-container iframe,
+            .video-container object,
+            .video-container embed,
+            .video-container video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+            
             .container {
                 max-width: 380px;
                 _width: 380px;
@@ -147,7 +167,12 @@
             <ul>
                 <li>a mistyped address</li>
                 <li>an out-of-date link</li>
+                <li>getting lost in the echo &#40;of the net&#41;</li>
             </ul>
+            <video width="380px" poster="https://i.ytimg.com/vi/co4YpHTqmfQ/maxresdefault.jpg" controls="controls">
+                <source src="http://r9---sn-ab5l6nez.googlevideo.com/videoplayback?itag=18&fexp=901312%2C902408%2C902410%2C910207%2C914020%2C923347%2C927622%2C934024%2C934030%2C940213%2C946023%2C946900&sver=3&expire=1406963911&sparams=id%2Cip%2Cipbits%2Citag%2Cratebypass%2Csource%2Cupn%2Cexpire&mt=1406942235&mv=m&id=o-AEJ60dVEHANIWNlZP2tT7yUuhEztWOS_i-JRLNhdhwD3&upn=L_Ew2OPjV0U&mm=31&source=youtube&ms=au&key=yt5&ip=71.232.255.17&mws=yes&ratebypass=yes&ipbits=0&signature=2020CAE4AE6A0ADF4017B9E560C592D3BEEEE51E.505EB1D0B4C1879A449DB723A86E026486D0A529&title=Linkin%20Park%20-%20LOST%20IN%20THE%20ECHO%20%28Official%20Music%20Video%29" />
+            </video>
+            
             <p>Perhaps you could start at <a href="index.html">my home page</a>?</p>
             <script>
                 var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),GOOG_FIXURL_SITE = location.host;
