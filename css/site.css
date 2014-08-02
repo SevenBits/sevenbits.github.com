@@ -135,9 +135,9 @@ li {
 }
 
 #advert .on-display {
-	float:right;
-	right:25px;
-	display:inline-block;
+	float: right;
+	right: 25px;
+	display: inline-block;
     margin: 15px;
     
     width: 256px;
@@ -256,6 +256,13 @@ screen and (max-device-width: 480px) {
 
     .float-left {
         float: none;
+    }
+    
+    #advert {
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
     }
     
     #advert .on-display {
