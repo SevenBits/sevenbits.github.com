@@ -63,6 +63,7 @@ li {
 
 .nav li a:hover {
     background-color: #F37021;
+    color: white;
 }
 
 #settings img {
@@ -206,46 +207,59 @@ and (max-device-width : 1024px) {
 
 /* iPhones */
 @media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-	#settings img {
-        /*display: none;*/
-        width: 16px;
-        height: 16px;
+/*only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {*/
+screen and (max-device-width: 480px) {
+    body {
+        -webkit-text-size-adjust: none;
+        font-family: Helvetica, Arial, Verdana, sans-serif;
+        padding: 5px;
     }
-    
-    #settings a {
-        padding: 0 5px;
-        height: 24px;
-        font-size: 10px;
-        line-height: 24px;
+
+    div, p {
+        clear: both !important;
+        display: block !important;
+        width: 100% !important;
+        float: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .nav, .nav li {
+        position: relative;
+        float: none !important;
+        clear: both !important;
+        margin: 0 0 20px 0! important;
+        display: block;
+        padding: 0;
+        text-align: left !important;
+        width: 100%;
+    }
+
+    .nav {
+        position: relative;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .nav li {
+        margin: 0!important;
+    }
+
+    .nav li a {
+        display: block;
     }
     
     .float-right {
-	   float: none;
+        float: none;
     }
 
     .float-left {
-	   float: none;
+        float: none;
     }
     
-    .nav {
-        height: 25px;
-        position: relative;
-    }
-    
-    .nav li a {
-        padding: 0 5px;
-        font-size: 15px;
-        line-height: 25px;
-    }
-    
-    .on-display {
+    #advert .on-display {
         display: none;
-    }
-    
-    .description {
-        margin: 2px 0px 0px 0px;
     }
     
     footer {
@@ -258,19 +272,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
         margin: 0px;
         padding: 0px;
         background-color: transparent;
-    }
-    
-    .main-page-content {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        width: 0px;
-        
-        min-height: 100%;
-        min-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
 
