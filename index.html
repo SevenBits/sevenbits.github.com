@@ -82,12 +82,12 @@
     			<p>
     				I have <a href="http://sevenbits-tech-blog.blogspot.com" target="_blank">a blog</a> where I post occasional rants and raves, as well as a website dedicated to my first person shooter game, <a href="http://www.theinvasiongames.com" target="_blank">Invasion</a>.
     			</p>
-    			<!--<p>
-                	<h4>The Latest YouTube Video:</h4>
+    			<p>
+                	<h4>A Random YouTube Video for One of My Projects (<a href="javascript:void(0);" onclick="swapVideo();">Pick a Different One</a>)&#58;</h4>
                     <div class="video-container">
-    					<iframe width="512" height="512" src="https://www.youtube.com/embed/1Ju8iRE2Ehg" frameborder="0" allowfullscreen></iframe>
+    					<iframe width="512" height="512" src="//www.youtube.com/embed/Yf3VChom8qo?rel=0" frameborder="0" allowfullscreen id="ytVideo"></iframe>
    					</div>
-    			</p>-->
+    			</p>
             </div>
         </div>
         
@@ -99,6 +99,15 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script>
+            function swapVideo() {
+                var urls = ["//www.youtube.com/embed/JdV-0k7BHLk?rel=0", "//www.youtube.com/embed/Yf3VChom8qo?rel=0"];
+                var url = urls[Math.floor(Math.random() * urls.length)];
+                $("#ytVideo").attr("src", url);
+            }
+            
+            document.ready = swapVideo;
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
