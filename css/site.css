@@ -46,7 +46,7 @@ li {
     z-index: 1;
 }
 
-.nav #contact {
+.nav .float-right {
 	float: right;
 }
 
