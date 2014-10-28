@@ -105,11 +105,9 @@
         <script>
             function swapVideo() {
                 var urls = ["//www.youtube.com/embed/JdV-0k7BHLk?rel=0", "//www.youtube.com/embed/Yf3VChom8qo?rel=0"];
-                var url = urls[Math.floor(Math.random() * urls.length)];
+                var url = urls[urls.indexOf($("#ytVideo").attr("src")) == 0 ? 1 : 0];
                 $("#ytVideo").attr("src", url);
             }
-            
-            document.ready = swapVideo;
         </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
