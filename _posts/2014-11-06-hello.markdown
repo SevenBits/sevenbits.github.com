@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "New Site Released"
+date:   2014-11-06 19:04:16
+categories: jekyll update
+---
+Greetings fellow netizens!
+
+I am happy to report that I have completed an upgrade of my site, which is now generating content via Jekyll. Pretty amazing, huh?
+
+Jekyll is really cool and makes generating static sites like this one really easy. I haven't transferred everything over yet, but all that will be here very soon, so be patient. ;)
+
+Hopefully, this will be a new evolution of of my World Wide Web presense. *Do svidaniya!*
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help

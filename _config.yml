@@ -1,0 +1,15 @@
+# Site settings
+title: SevenBits' Tech Site
+email: sevenbitstech@gmail.com
+author: SevenBits
+description:
+  SevenBits is the online alias of a unique but somewhat quirky
+  programmer from New Hampshire. Some of his interests include
+  WebGL and graphics programming, server-side application
+  development, and kernel/boot loader programming.
+url: "" # the subpath of your site, e.g. /blog/
+github_username:  SevenBits
+stackoverflow_username: 1804409/sevenbits
+
+# Build settings
+markdown: kramdown

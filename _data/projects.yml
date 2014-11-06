@@ -1,0 +1,15 @@
+- name: Incinerator
+  link: http://incinerator.sevenbits.tk
+  description: Incinerator is an app that securely erases files from your hard drive with extreme prejudice. It is capable of obliterating pretty much any file in its way - and yours. When you normally erase a file on your Mac, more often than not, the file can still be retrieved. Using professional software, even amateur computer users can find potentially dangerous information on your hard drive, such as sensitive documents, bills, etc. Don't take chances&#58; protect your data with Incinerator!
+
+- name: Mac Linux USB Loader
+  link: http://sevenbits.github.io/Mac-Linux-USB-Loader/
+  description: This is a tool allowing you to put a Linux distro on a USB drive and make it bootable on Intel Macs using EFI. Right now, it's very basic and rudimentary but is being very actively developed. Some advanced features are being developed for Mac Linux USB Loader that are not available in other live USB creators for Mac, such as the ability to make the Live USB drives created by this tool automatically boot on your Mac, a Compatibility Tester application, and more!
+
+- name: Enterprise
+  link: http://sevenbits.github.io/Enterprise/
+  description: Enterprise is a custom UEFI boot manager. It is designed to compliment Mac Linux USB Loader as the first stage in a two-stage booting process for Mac Linux USB Loader-created USB drives. Essentially, Enterprise loads GRUB, giving it a configuration file with things that it needs to successfully boot the Linux distribution on Mac hardware. This is a paradigm shift from the solution used in pre-2.0 versions of Mac Linux USB Loader, a pre-compiled GRUB executable with an embedded configuration file, which was outdated, inflexible, and, due to differences in how distributions pack their ISOs, largely unable to boot anything other than Ubuntu derivatives.
+  
+- name: Apple Core
+  link: /projects/apple-core.html
+  description: Apple Core is an advanced system tool allowing you to view, and change, internal OS X configuration files. Development is currently on hold. Apple Core is designed for advanced users that want the power to know how their system behaves internally. Casual OS X users need not apply, as there is serious risk of destroying your operating system through incorrect use.
