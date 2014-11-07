@@ -14,7 +14,7 @@ permalink: /contact.html
 
 **Blogspot**: If you are a frequent peruser of [my blog](http://sevenbits-tech-blog.blogspot.com/), you can leave comments there to reach out to me.
 
-For privacy conscious users, I have a GPG public key that you can use to encrypt email that only I can read. You can download it by clicking here. Alternatively, the key content is reproduced below:
+For privacy conscious users, I have a GPG public key that you can use to encrypt email that only I can read. You can download it by clicking [here](/downloads/pub-key.gpg). Alternatively, the key content is reproduced below:
 
 	-----BEGIN PGP PUBLIC KEY BLOCK-----
 	Version: GnuPG/MacGPG2 v2.0.20 (Darwin)
