@@ -29,5 +29,13 @@
            <pubDate>Tuesday, 24 December 2013</pubDate>
            <enclosure url="http://sevenbits.github.com/appcasts/mlul-2.0FINAL.zip" sparkle:version="7036" sparkle:shortVersionString="2.0" sparkle:dsaSignature="MCwCFDgNqXjwOHPjdj/MnoBvvFr4LaxlAhQ14lk8fLxjZdp+NnHBZwNk4Hx1WQ==" length="2197916" type="application/octet-stream" />
        </item>
+	   <item>
+		   <title>2.0.2</title>
+		   <sparkle:releaseNotesLink>
+			   http://sevenbits.github.com/appcasts/rel-notes.html
+		   </sparkle:releaseNotesLink>
+		   <pubDate>Saturday, 08 November 2014</pubDate>
+		   <enclosure url="https://github.com/SevenBits/Mac-Linux-USB-Loader/releases/download/v2.0.2/Mac.Linux.USB.Loader.zip" sparkle:version="7132" sparkle:shortVersionString="2.0.2" length="3832481" type="application/octet-stream" />
+	   </item>
    </channel>
 </rss>
