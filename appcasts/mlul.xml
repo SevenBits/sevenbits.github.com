@@ -1,41 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
-   <channel>
-      <title>Mac Linux USB Loader Changelog</title>
-      <link>http://sevenbits.github.com/appcasts/mlul.xml</link>
-      <description>Most recent changes to Mac Linux USB Loader.</description>
-      <language>en</language>
-       <item>
-           <title>1.0</title>
-           <sparkle:releaseNotesLink>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Mac Linux USB Loader Changelog</title>
+        <link>http://sevenbits.github.com/appcasts/mlul.xml</link>
+        <description>Most recent changes to Mac Linux USB Loader.</description>
+        <language>en</language>
+        <item>
+            <title>1.0</title>
+            <sparkle:releaseNotesLink>
                http://sevenbits.github.com/appcasts/rel-notes.html
            </sparkle:releaseNotesLink>
-           <pubDate>Friday, 31 May 2013</pubDate>
-           <enclosure url="http://sevenbits.github.com/appcasts/mlul-1.0FINAL.zip" sparkle:version="5084" sparkle:shortVersionString="1.0" sparkle:dsaSignature="MC0CFD4KIuEUTJsKrfA2ZqtAx9BqhxUSAhUAgB7PCqEAVqMxbi+AN2FQoNPH+TU=" length="2325983" type="application/octet-stream" />
-       </item>
-       <item>
-           <title>1.1</title>
-           <sparkle:releaseNotesLink>
+            <pubDate>Friday, 31 May 2013</pubDate>
+            <enclosure url="http://sevenbits.github.com/appcasts/mlul-1.0FINAL.zip" sparkle:version="5084" sparkle:shortVersionString="1.0" sparkle:dsaSignature="MC0CFD4KIuEUTJsKrfA2ZqtAx9BqhxUSAhUAgB7PCqEAVqMxbi+AN2FQoNPH+TU=" length="2325983" type="application/octet-stream" />
+        </item>
+        <item>
+            <title>1.1</title>
+            <sparkle:releaseNotesLink>
                http://sevenbits.github.com/appcasts/rel-notes.html
            </sparkle:releaseNotesLink>
-           <pubDate>Friday, 09 August 2013</pubDate>
-           <enclosure url="http://sevenbits.github.com/appcasts/mlul-1.0FINAL.zip" sparkle:version="5090" sparkle:shortVersionString="1.1" sparkle:dsaSignature="MCwCFGPmVm/1iFXu7lDnjF+wgHpSyNXBAhRww6RuEqa/by2nnIi0iBfMgFykXg==" length="2319922" type="application/octet-stream" />
-       </item>
-       <item>
-           <title>2.0</title>
-           <sparkle:releaseNotesLink>
+            <pubDate>Friday, 09 August 2013</pubDate>
+            <enclosure url="http://sevenbits.github.com/appcasts/mlul-1.0FINAL.zip" sparkle:version="5090" sparkle:shortVersionString="1.1" sparkle:dsaSignature="MCwCFGPmVm/1iFXu7lDnjF+wgHpSyNXBAhRww6RuEqa/by2nnIi0iBfMgFykXg==" length="2319922" type="application/octet-stream" />
+        </item>
+        <item>
+            <title>2.0</title>
+            <sparkle:releaseNotesLink>
                http://sevenbits.github.com/appcasts/rel-notes.html
            </sparkle:releaseNotesLink>
-           <pubDate>Tuesday, 24 December 2013</pubDate>
-           <enclosure url="http://sevenbits.github.com/appcasts/mlul-2.0FINAL.zip" sparkle:version="7036" sparkle:shortVersionString="2.0" sparkle:dsaSignature="MCwCFDgNqXjwOHPjdj/MnoBvvFr4LaxlAhQ14lk8fLxjZdp+NnHBZwNk4Hx1WQ==" length="2197916" type="application/octet-stream" />
-       </item>
-	   <item>
-		   <title>2.0.2</title>
-		   <sparkle:releaseNotesLink>
+            <pubDate>Tuesday, 24 December 2013</pubDate>
+            <enclosure url="http://sevenbits.github.com/appcasts/mlul-2.0FINAL.zip" sparkle:version="7036" sparkle:shortVersionString="2.0" sparkle:dsaSignature="MCwCFDgNqXjwOHPjdj/MnoBvvFr4LaxlAhQ14lk8fLxjZdp+NnHBZwNk4Hx1WQ==" length="2197916" type="application/octet-stream" />
+        </item>
+        <item>
+            <title>2.0.2</title>
+            <sparkle:releaseNotesLink>
 			   http://sevenbits.github.com/appcasts/rel-notes.html
 		   </sparkle:releaseNotesLink>
-		   <pubDate>Saturday, 08 November 2014</pubDate>
-		   <enclosure url="https://github.com/SevenBits/Mac-Linux-USB-Loader/releases/download/v2.0.2/Mac.Linux.USB.Loader.zip" sparkle:version="7132" sparkle:shortVersionString="2.0.2" length="3832481" type="application/octet-stream" />
-	   </item>
-   </channel>
+            <pubDate>Saturday, 08 November 2014</pubDate>
+            <enclosure url="https://github.com/SevenBits/Mac-Linux-USB-Loader/releases/download/v2.0.2/Mac.Linux.USB.Loader.zip" sparkle:version="7132" sparkle:shortVersionString="2.0.2" length="3832481" type="application/octet-stream" />
+        </item>
+        <item>
+            <title>3.0</title>
+            <sparkle:releaseNotesLink>http://sevenbits.github.com/appcasts/rel-notes.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.8</sparkle:minimumSystemVersion>
+            <pubDate>Tuesday, 24 December 2014</pubDate>
+            <sparkle:version>8000</sparkle:version>
+            <sparkle:shortVersionString>3.0</sparkle:shortVersionString>
+            <link>https://sevenbits.github.io/Mac-Linux-USB-Loader/</link>
+        </item>
+    </channel>
 </rss>
