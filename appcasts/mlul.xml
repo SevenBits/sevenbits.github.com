@@ -55,5 +55,14 @@
             <sparkle:shortVersionString>3.0.1</sparkle:shortVersionString>
             <link>https://sevenbits.github.io/Mac-Linux-USB-Loader/</link>
         </item>
+        <item>
+            <title>3.0.2</title>
+            <sparkle:releaseNotesLink>http://sevenbits.github.com/appcasts/rel-notes.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.8</sparkle:minimumSystemVersion>
+            <pubDate>Wednesday, 14 January 2015</pubDate>
+            <sparkle:version>8093</sparkle:version>
+            <sparkle:shortVersionString>3.0.2</sparkle:shortVersionString>
+            <link>https://sevenbits.github.io/Mac-Linux-USB-Loader/</link>
+        </item>
     </channel>
 </rss>
