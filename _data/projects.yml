@@ -1,10 +1,10 @@
 - name: Incinerator
   link: http://incinerator.sevenbits.tk
-  description: Incinerator is an app that securely erases files from your hard drive with extreme prejudice. It is capable of obliterating pretty much any file in its way - and yours. When you normally erase a file on your Mac, more often than not, the file can still be retrieved. Using professional software, even amateur computer users can find potentially dangerous information on your hard drive, such as sensitive documents, bills, etc. Don't take chances&#58; protect your data with Incinerator!
+  description: Incinerator is an app that securely erases files from your hard drive with extreme prejudice. It is capable of obliterating pretty much any file in its way - and yours. When you normally erase a file on your Mac, more often than not, the file can still be retrieved. Using professional software, even amateur computer users can find potentially dangerous information on your hard drive, such as sensitive documents, bills, etc. Don't take chances&#58; protect your data with Incinerator! It is available for US$0.99 on the Mac App Store, under Utilities.
 
 - name: Insane BF
   link: http://bf.sevenbits.tk
-  description: Do ASCII characters and plain text make you happy? Do you like to program like it's 1989? Do you like to twist and contort your thinking to help solve bizarre challenges? If you answered yes to any of the above questions, Insane BF is most definitely the app for you! Insane BF is a complete execution environment for the esoteric BF programming language, which was created in 1993 by Urban Müller. Insane BF features everything great about the six command language without requiring a command line.
+  description: Do ASCII characters and plain text make you happy? Do you like to program like it's 1989? Do you like to twist and contort your thinking to help solve bizarre challenges? If you answered yes to any of the above questions, Insane BF is most definitely the app for you! Insane BF is a complete execution environment for the esoteric Brainfuck programming language, which was created in 1993 by Urban Müller. Insane BF features everything great about the six command language without requiring a command line. Insane BF is available for US$1.99 on the Mac App Store under the Developer Tools section.
 
 - name: Mac Linux USB Loader
   link: https://sevenbits.github.io/Mac-Linux-USB-Loader/
