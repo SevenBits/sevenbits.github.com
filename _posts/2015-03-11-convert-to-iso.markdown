@@ -22,4 +22,4 @@ Any comments or questions? Feel free to [contact me][2] and please [donate][3] i
 
 [1]: http://www.puredarwin.org "PureDarwin homepage"
 [2]: https://sevenbits.github.io/contact.html "Contact Me"
-[2]: https://sevenbits.github.io/donate.html "Donate to Me"
+[3]: https://sevenbits.github.io/donate.html "Donate to Me"
