@@ -6,7 +6,7 @@ permalink: /contact.html
 
 **Email**: Tried and true since the '80s. If you want to comment, complain, or even floccinaucinihilipilificate my work, feel free to email me at this address:
 
-[sevenbitstech [AT] gmail [D O T] com](mailto:sevenbitstech@gmail.com)
+[![Image Alt](img/email.svg)](mailto:sevenbitstech@gmail.com)
 
 **GitHub**: You can view all sorts of information on me and my open-source projects by viewing [my profile on GitHub](https://github.com/SevenBits/).
 
