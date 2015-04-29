@@ -25,6 +25,9 @@ The final version should be shipping very soon. Please take this opportunity to 
 
 *Note about Kali*: There are bugs in the current version of Kali which stop it from working on older Macs with nVidia graphics cards. I am in touch with the Kali developers and we are working to fix the problem.
 
+**[Click here to download the beta][4]** and feel free to [contact me][2] and [donate to the project][3].
+
 [1]: https://sevenbits.github.io/Enterprise/ "Enterprise"
 [2]: https://sevenbits.github.io/contact.html "Contact Me"
 [3]: https://sevenbits.github.io/donate.html "Donate to Me"
+[4]: https://github.com/SevenBits/Mac-Linux-USB-Loader/releases/download/v3.1-CP1/Mac.Linux.USB.Loader.zip "Download Link"
