@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>Mac Linux USB Loader Changelog</title>
-        <link>http://sevenbits.github.com/appcasts/mlul.xml</link>
+        <link>http://localhost:8000/mlul.xml</link>
         <description>Most recent changes to Mac Linux USB Loader.</description>
         <language>en</language>
         <item>
@@ -63,6 +63,15 @@
             <sparkle:version>8093</sparkle:version>
             <sparkle:shortVersionString>3.0.2</sparkle:shortVersionString>
             <link>https://sevenbits.github.io/Mac-Linux-USB-Loader/</link>
+        </item>
+        <item>
+        <title>3.1</title>
+            <sparkle:releaseNotesLink>http://sevenbits.github.com/appcasts/rel-notes.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.8</sparkle:minimumSystemVersion>
+            <pubDate>Friday, 21 August 2015</pubDate>
+            <sparkle:version>9185</sparkle:version>
+            <sparkle:shortVersionString>3.1</sparkle:shortVersionString>
+            <link>https://sevenbits.github.io/Mac-Linux-USB-Loader/donate.html</link>
         </item>
     </channel>
 </rss>
