@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "PuTTY for Linux"
+date:   2015-12-17 19:58:00
+categories: linux
+---
+![PuTTY logo](http://restek.wwu.edu/wp-content/uploads/2011/08/logo_putty.png)
+
+If you do any sort of networking or experimentation with Linux-based machines, you've almost certainly heard of [PuTTY][1] by Simon Tatham. PuTTY is a standalone program for Windows that does not require installation, and it allows you to connect over SSH (Secure Shell) to any remote server on which you have an account. Since Windows (unlike Linux, BSD, and OS X) lacks a client for SSH, PuTTY is a lifesaver for those who need to use UNIX tools on an environment that doesn't have any.
+
+Although Linux and OS X ship with an SSH client, it only works over the command line, and it can be somewhat difficult for new or less experienced users to set up. Performing a key-based login into the remote server, for example, requires editing various system configuration files, a daunting task for a new user.
+
+Therefore, as an aid to new users, or those who simply prefer the Windows interface, I'm making available the latest version of PuTTY (0.66 as of this writing) for users who run 64-bit Linux. Given that Simon's website lacks any way to obtain this, I figure this can be useful for many.
+
+I will do my best to update this as new versions of PuTTY are released. A version for OS X may soon be in the works as well; we'll see.
+
+To download PuTTY for 64-bit Linux, please [click here][2]. The file you download is a gzip archive containing PuTTY and related tools. The only requirement to run these is the GTK libraries and a 64-bit processor.
+
+Thanks, and I hope this someone!
+
+[1]: http://www.chiark.greenend.org.uk/~sgtatham/putty/ "PuTTY"
+[2]: http://sevenbits.tk/downloads/putty-linux-0.66.tar.gz "Download PuTTY for Linux"
