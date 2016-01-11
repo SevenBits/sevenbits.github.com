@@ -1,13 +1,13 @@
 - name: Incinerator
-  link: http://incinerator.sevenbits.tk
+  link: http://www.sevenbits.tk/incinerator/
   description: Incinerator is an app that securely erases files from your hard drive with extreme prejudice. It is capable of obliterating pretty much any file in its way - and yours. When you normally erase a file on your Mac, more often than not, the file can still be retrieved. Using professional software, even amateur computer users can find potentially dangerous information on your hard drive, such as sensitive documents, bills, etc. Don't take chances&#58; protect your data with Incinerator! It is available for US$0.99 on the Mac App Store, under Utilities.
 
 - name: Insane BF
-  link: http://bf.sevenbits.tk
+  link: http://www.sevenbits.tk/insane_bf/
   description: Do ASCII characters and plain text make you happy? Do you like to program like it's 1989? Do you like to twist and contort your thinking to help solve bizarre challenges? If you answered yes to any of the above questions, Insane BF is most definitely the app for you! Insane BF is a complete execution environment for the esoteric Brainfuck programming language, which was created in 1993 by Urban Müller. Insane BF features everything great about the six command language without requiring a command line. Insane BF is available for US$1.99 on the Mac App Store under the Developer Tools section.
 
 - name: Mac Linux USB Loader
-  link: https://sevenbits.github.io/Mac-Linux-USB-Loader/
+  link: http://www.sevenbits.tk/mlul/
   description: This is a tool allowing you to put a Linux distro on a USB drive and make it bootable on Intel Macs using EFI. Right now, it's very basic and rudimentary but is being very actively developed. Some advanced features are being developed for Mac Linux USB Loader that are not available in other live USB creators for Mac, such as the ability to make the Live USB drives created by this tool automatically boot on your Mac, a Compatibility Tester application, and more!
 
 - name: Enterprise
