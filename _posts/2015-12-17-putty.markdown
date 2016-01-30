@@ -14,9 +14,9 @@ Therefore, as an aid to new users, or those who simply prefer the Windows interf
 
 I will do my best to update this as new versions of PuTTY are released. A version for OS X may soon be in the works as well; we'll see.
 
-To download PuTTY for 64-bit Linux, please [click here][2]. The file you download is a gzip archive containing PuTTY and related tools. The only requirement to run these is the GTK libraries and a 64-bit processor.
+To download PuTTY for 64-bit Linux, please [click here][2]. The file you download is a gzip archive containing PuTTY and related tools. The only requirement to run these is GTK2 libraries and a 64-bit processor.
 
 Thanks, and I hope this someone!
 
 [1]: http://www.chiark.greenend.org.uk/~sgtatham/putty/ "PuTTY"
-[2]: http://sevenbits.tk/downloads/putty-linux-0.66.tar.gz "Download PuTTY for Linux"
+[2]: http://archive.sevenbits.tk/putty/putty-linux-0.66.tar.gz "Download PuTTY for Linux"
