@@ -12,12 +12,12 @@
             <enclosure url="https://github.com/SevenBits/Mac-Linux-USB-Loader/releases/download/v2.0.2/Mac.Linux.USB.Loader.zip" sparkle:version="7132" sparkle:shortVersionString="2.0.2" length="3832481" type="application/octet-stream" />
         </item>
         <item>
-            <title>3.2</title>
-            <sparkle:releaseNotesLink>http://sevenbits.github.com/appcasts/rel-notes.html</sparkle:releaseNotesLink>
+            <title>3.2.1</title>
+            <sparkle:releaseNotesLink>https://www.sevenbits.tk/appcasts/rel-notes.html</sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>10.8</sparkle:minimumSystemVersion>
-            <pubDate>Sunday, 29 November 2015</pubDate>
-            <sparkle:version>9345</sparkle:version>
-            <sparkle:shortVersionString>3.2</sparkle:shortVersionString>
+            <pubDate>Sunday, 20 March 2016</pubDate>
+            <sparkle:version>9396</sparkle:version>
+            <sparkle:shortVersionString>3.2.1</sparkle:shortVersionString>
             <link>https://sevenbits.github.io/Mac-Linux-USB-Loader/donate.html</link>
         </item>
     </channel>
