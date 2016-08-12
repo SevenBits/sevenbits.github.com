@@ -1,5 +1,5 @@
 # Site settings
-title: SevenBits' Tech Site
+title: SevenBits' Tech Blog
 name: SevenBits
 email: sevenbitstech@gmail.com
 location: New Hampshire
@@ -54,6 +54,9 @@ navs:
   -
     href: /
     label: Home
+  -
+    href: https://www.sevenbits.tk/
+    label: My Apps
 
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show
