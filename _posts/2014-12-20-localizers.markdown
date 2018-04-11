@@ -4,8 +4,6 @@ title:  "Localizers Wanted"
 date:   2014-12-20 17:59:00
 categories: update localization mlul
 ---
-Hello, everyone.
-
 So, you all are probably wondering when [Mac Linux USB Loader][1]'s rewrite will be out. Well, fear not, because it will be out by Christmas, that is, assuming that you all have been good this year. ;)
 
 But there's one thing that I really need right now, and that's people who can help localize Mac Linux USB Loader. Right now, Mac Linux USB Loader supports [a few languages][2], and while that certainly isn't bad, it precludes a lot of people from being able to use it, because it is difficult to use a program in a language that you cannot speak. Even worse is the fact that the rewrite hasn't been translated yet - it's only available in English!
