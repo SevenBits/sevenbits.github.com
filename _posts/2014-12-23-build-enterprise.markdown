@@ -4,8 +4,6 @@ title:  "How to Compile and Build Enterprise"
 date:   2014-12-23 17:59:00
 categories: mlul enterprise efi
 ---
-Hello, everyone.
-
 I've recieved a few emails from users asking how to compile Enterprise from source code so that they can create their own builds to be used with Mac Linux USB Loader. Since there's not yet any official documentation on the topic, I figured that I'd write a post about it for everyone's edification.
 
 The first thing that you need is a Linux box, though this is more of a practical requirement more than anything else; since OS X uses Mach-O as its executable format, Apple's default compiler toolchain does not ship with the ability to create ELF executables, a requirement for GNU-EFI, the library that Enterprise uses to facilitate access to EFI functions.
