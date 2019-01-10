@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "PureDarwin's Work is Fantastic"
-date:   2018-01-08 15:45:00
-categories: iso osx puredarwin qemu
+date:   2019-01-08 15:45:00
+categories: osx puredarwin qemu
 ---
-
 I've had a longtime interest in [PureDarwin][1], an attempt to build a version of Darwin
 using only free and open-source software. Darwin is the UNIX-based environment that
 underlies Apple's macOS operating system. Many parts of Darwin are open-source, but many
